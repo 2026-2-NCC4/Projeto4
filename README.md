@@ -127,3 +127,21 @@ Aqui estão as referências usadas no projeto.
 4. <https://freesound.org/>
 5. <https://www.toptal.com/developers/gitignore>
 6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
+<!--
+   ## Referências
+
+* **ASSAF NETO, Alexandre.** *Estrutura e Análise de Balanços: Um Abordagem Econômico-Financeira*. 12. ed. São Paulo: Atlas, 2020. Disponível em: <https://www.grupogen.com.br/>. Acesso em: 25 set. 2026.
+
+* **GITMAN, Lawrence J.; ZUTTER, Chad J.** *Princípios de Administração Financeira*. 14. ed. São Paulo: Pearson, 2017. Disponível em: <https://www.pearson.com/>. Acesso em: 25 set. 2026.
+
+* **GITHUB.** *GitHub Projects: Planning and tracking work*. Disponível em: <https://docs.github.com/en/issues/planning-and-tracking-with-projects>. Acesso em: 25 set. 2026.
+
+* **MCKINNEY, Wes.** *Python para Análise de Dados: Tratamento de Dados com Pandas, NumPy e Jupyter*. 2. ed. São Paulo: Novatec, 2022. Disponível em: <https://novatec.com.br/>. Acesso em: 25 set. 2026.
+
+* **PYTHON SOFTWARE FOUNDATION.** *Python 3.10.x Documentation*. Disponível em: <https://docs.python.org/3/>. Acesso em: 25 set. 2026.
+
+* **SCHWABER, Ken; SUTHERLAND, Jeff.** *O Guia do Scrum: O Guia Definitivo para o Scrum: As Regras do Jogo*. Scrum.org, 2020. Disponível em: <https://scrumguides.org/>. Acesso em: 25 set. 2026.
+
+* **SOMMERVILLE, Ian.** *Engenharia de Software*. 10. ed. São Paulo: Pearson Prentice Hall, 2019. Disponível em: <https://www.pearson.com/>. Acesso em: 25 set. 2026.
+
+* **STREAMLIT.** *Streamlit Documentation: The fastest way to build and share data apps*. Disponível em: <https://docs.streamlit.io/>. Acesso em: 25 set. 2026.-->
