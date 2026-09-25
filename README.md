@@ -26,12 +26,12 @@
 
 ## Entregas das Disciplinas
 
-| Disciplina / Tópico | Acesso Direto |
-| :--- | :--- |
-| **Análise Inferencial de Dados** | [Ver pasta](Documentos/Entrega%201/Analise%20Inferencial%20de%20Dados/) |
-| **Contabilidade e Finanças** | [Ver pasta](Documentos/Entrega%201/Contabilidade%20e%20Finan%C3%A7as/) |
-| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) |
-| **Projeto Interdisciplinar Ciência de Dados** | [Ver pasta](Documentos/Entrega%201/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) |
+| Disciplina / Tópico | Entrega 1 | Entrega 2 |
+| :--- | :--- | :--- |
+| **Análise Inferencial de Dados** | [Ver pasta](Documentos/Entrega%201/Analise%20Inferencial%20de%20Dados/) | [Ver pasta](Documentos/Entrega%202/Analise%20Inferencial%20de%20Dados/) |
+| **Contabilidade e Finanças** | [Ver pasta](Documentos/Entrega%201/Contabilidade%20e%20Finan%C3%A7as/) | [Ver pasta](Documentos/Entrega%202/Contabilidade%20e%20Finan%C3%A7as/) |
+| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) | [Ver pasta](Documentos/Entrega%202/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/) |
+| **Projeto Interdisciplinar Ciência de Dados** | [Ver pasta](Documentos/Entrega%201/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) | [Ver pasta](Documentos/Entrega%202/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) |
 
 ## Descrição
 
@@ -43,34 +43,49 @@ O objetivo principal da solução é automatizar a limpeza, uniformização e tr
 
 ## 🛠 Estrutura de pastas
 
--Raiz<br>
-|<br>
-|-->documentos<br>
-  &emsp;|-->antigos<br>
-  &emsp;|Documentação.docx<br>
-|-->executáveis<br>
-  &emsp;|-->windows<br>
-  &emsp;|-->android<br>
-  &emsp;|-->HTML<br>
-|-->imagens<br>
-|-->src<br>
-  &emsp;|-->Backend<br>
-  &emsp;|-->Frontend<br>
-|readme.md<br>
+```text
+Projeto4/
+├── Documentos/
+│   ├── Documento - Projeto de Extensão - COM Empresa - 2026_1.docx
+│   ├── Entrega 1/
+│   │   ├── Analise Inferencial de Dados/
+│   │   │   ├── Analise_Descritiva_CTI.ipynb
+│   │   │   └── Relatorio_Analise_Descritiva.pdf
+│   │   ├── Contabilidade e Finanças/
+│   │   │   ├── Dicionario_KPIs_CTI.pdf
+│   │   │   ├── Planilha_Validacao_KPIs_CTI.xlsx
+│   │   │   └── calculo_kpis.py
+│   │   ├── Engenharia de Software e Arquitetura de Sistemas/
+│   │   │   └── ES e ML/
+│   │   │       └── DOCUMENTO DE ENGENHARIA DE SOFTWARE E MÉTODOS ÁGEIS.pdf
+│   │   └── Projeto Interdisciplinar Ciencia de Dados/
+│   │       ├── PI_CD_Entrega01_Preparacao_Dados.pdf
+│   │       └── Preparacao_Dados_CTI.ipynb
+│   └── Entrega 2/
+│       ├── Analise Inferencial de Dados/
+│       ├── Contabilidade e Finanças/
+│       ├── Engenharia de Software e Arquitetura de Sistemas/
+│       └── Projeto Interdisciplinar Ciencia de Dados/
+├── Imagens/
+├── src/
+│   └── Entrega 2/
+├── .gitignore
+└── README.md
+```
 
-A pasta raiz contem dois arquivos que devem ser alterados:
+A pasta raiz contém dois arquivos:
 
-<b>README.MD</b>: Arquivo que serve como guia e explicação geral sobre seu projeto. O mesmo que você está lendo agora.
+<b>README.md</b>: Guia e explicação geral do projeto. O mesmo que você está lendo agora.
 
-Há também 4 pastas que seguem da seguinte forma:
+<b>.gitignore</b>: Lista do que não deve ser versionado no repositório.
 
-<b>documentos</b>: Toda a documentação estará nesta pasta.
+Há também 3 pastas que seguem da seguinte forma:
 
-<b>executáveis</b>: Binários e executáveis do projeto devem estar nesta pasta.
+<b>Documentos</b>: Documentação e entregas das disciplinas, separadas em `Entrega 1` e `Entrega 2`, com uma subpasta para cada disciplina. Na raiz dela fica o Documento de Projeto de Extensão.
 
-<b>imagens</b>: Imagens do sistema
+<b>Imagens</b>: Imagens do sistema e da documentação.
 
-<b>src</b>: Pasta que contém o código fonte.
+<b>src</b>: Código-fonte da plataforma, organizado por entrega. Os códigos da Entrega 1 (notebooks e script de KPIs) estão junto com as entregas, em `Documentos/Entrega 1`.
 
 ## 🛠 Instalação
 
@@ -118,27 +133,24 @@ Coloque código do prompt de comnando se for necessário
 
 Aqui estão as referências usadas no projeto.
 
-1. <https://github.com/iuricode/readme-template>
-2. <https://github.com/gabrieldejesus/readme-model>
-3. <https://chooser-beta.creativecommons.org/>
-4. <https://freesound.org/>
-5. <https://www.toptal.com/developers/gitignore>
-6. Músicas por: <a href="https://freesound.org/people/DaveJf/sounds/616544/"> DaveJf </a> e <a href="https://freesound.org/people/DRFX/sounds/338986/"> DRFX </a> ambas com Licença CC 0.
-<!--
-   ## Referências
+ASSAF NETO, Alexandre. **Estrutura e análise de balanços**: um enfoque econômico-financeiro. 12. ed. São Paulo: Atlas, 2020.
 
-* **ASSAF NETO, Alexandre.** *Estrutura e Análise de Balanços: Um Abordagem Econômico-Financeira*. 12. ed. São Paulo: Atlas, 2020. Disponível em: <https://www.grupogen.com.br/>. Acesso em: 25 set. 2026.
+GITHUB. **Planning and tracking with Projects**. GitHub Docs. Disponível em: <https://docs.github.com/en/issues/planning-and-tracking-with-projects>. Acesso em: 25 set. 2026.
 
-* **GITMAN, Lawrence J.; ZUTTER, Chad J.** *Princípios de Administração Financeira*. 14. ed. São Paulo: Pearson, 2017. Disponível em: <https://www.pearson.com/>. Acesso em: 25 set. 2026.
+GITMAN, Lawrence J.; ZUTTER, Chad J. **Princípios de administração financeira**. 14. ed. São Paulo: Pearson, 2017.
 
-* **GITHUB.** *GitHub Projects: Planning and tracking work*. Disponível em: <https://docs.github.com/en/issues/planning-and-tracking-with-projects>. Acesso em: 25 set. 2026.
+GOOGLE. **Google Colaboratory**. Disponível em: <https://colab.research.google.com/>. Acesso em: 25 set. 2026.
 
-* **MCKINNEY, Wes.** *Python para Análise de Dados: Tratamento de Dados com Pandas, NumPy e Jupyter*. 2. ed. São Paulo: Novatec, 2022. Disponível em: <https://novatec.com.br/>. Acesso em: 25 set. 2026.
+MATPLOTLIB DEVELOPMENT TEAM. **Matplotlib**: visualization with Python. Disponível em: <https://matplotlib.org/stable/>. Acesso em: 25 set. 2026.
 
-* **PYTHON SOFTWARE FOUNDATION.** *Python 3.10.x Documentation*. Disponível em: <https://docs.python.org/3/>. Acesso em: 25 set. 2026.
+MCKINNEY, Wes. **Python para análise de dados**: tratamento de dados com pandas, NumPy & Jupyter. 3. ed. São Paulo: Novatec, 2023.
 
-* **SCHWABER, Ken; SUTHERLAND, Jeff.** *O Guia do Scrum: O Guia Definitivo para o Scrum: As Regras do Jogo*. Scrum.org, 2020. Disponível em: <https://scrumguides.org/>. Acesso em: 25 set. 2026.
+NUMPY DEVELOPERS. **NumPy documentation**. Disponível em: <https://numpy.org/doc/stable/>. Acesso em: 25 set. 2026.
 
-* **SOMMERVILLE, Ian.** *Engenharia de Software*. 10. ed. São Paulo: Pearson Prentice Hall, 2019. Disponível em: <https://www.pearson.com/>. Acesso em: 25 set. 2026.
+PANDAS DEVELOPMENT TEAM. **pandas documentation**. Disponível em: <https://pandas.pydata.org/docs/>. Acesso em: 25 set. 2026.
 
-* **STREAMLIT.** *Streamlit Documentation: The fastest way to build and share data apps*. Disponível em: <https://docs.streamlit.io/>. Acesso em: 25 set. 2026.-->
+PYTHON SOFTWARE FOUNDATION. **Python 3.12 documentation**. Disponível em: <https://docs.python.org/3.12/>. Acesso em: 25 set. 2026.
+
+SCHWABER, Ken; SUTHERLAND, Jeff. **O Guia do Scrum**: o guia definitivo para o Scrum: as regras do jogo. [*S. l.*]: Scrum.org, 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf>. Acesso em: 25 set. 2026.
+
+SOMMERVILLE, Ian. **Engenharia de software**. 10. ed. São Paulo: Pearson, 2018.
