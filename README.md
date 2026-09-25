@@ -13,7 +13,7 @@
 [Yuri Oliveira Santana - ](https://www.linkedin.com/in/yuri-oliveira-santana/)<br>
 [Mauricio Suster - ](https://www.linkedin.com/in/mauricio-suster?utm_source=share_via&utm_content=profile&utm_medium=member_android)<br>
 [Kaio Inglez - ](https://www.linkedin.com/in/kaio-inglez-874812391?utm_source=share_via&utm_content=profile&utm_medium=member_ios)<br>
-[Bruno Nobrega - ](https://www.linkedin.com/in/igor-almeida-635656342?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[Bruno Nobrega - ](https://www.linkedin.com/in/bruno-nóbrega-537376362?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 ### Professores Orientadores: 
 
@@ -25,16 +25,13 @@
 <br>
 
 ## Entregas das Disciplinas
-<!--
-| Disciplina | Entrega 1 | Entrega 2 |
-| :--- | :--- | :--- |
-| Análise Inferencial de Dados | [/Documentos/Entrega 1/Análise Inferencial de Dados](./Documentos/Entrega%201/Analise%20Inferencial%20de%20Dados) | [/Documentos/Entrega 2/Análise Inferencial de Dados](./Documentos/Entrega%202/Analise%20Descritiva%20de%20Dados) |
-|Engenharia de Software e Arquitetura de Sistemas | [/Documentos/Entrega 1/Engenharia de Software e Arquitetura de Sistemas/ES ML](./Documentos/Entrega%201/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | [/Documentos/Entrega 2/Programação Orientada a Objetos e Estrutura de Dados](./Documentos/Entrega%202/Programação%20Orientada%20a%20Objetos%20e%20Estrutura%20de%20Dados) | 
-| Programação para Dispositivos Moveis | [/Documentos/src/Entrega 1](./src/Entrega%201) | [/Documentos/src/Entrega 2](./src/Entrega%202) | 
-| Contabilidade e Finanças | [/Documentos/Entrega%101/Contabilidade e Finanças](./Entrega%101) | [/Documentos/](./Entrega%202) | 
-<br>
--->
 
+| Disciplina / Tópico | Acesso Direto |
+| :--- | :--- |
+| **Análise Inferencial de Dados** | [Ver pasta](Documentos/Entrega%201/Analise%20Inferencial%20de%20Dados/) |
+| **Contabilidade e Finanças** | [Ver pasta](Documentos/Entrega%201/Contabilidade%20e%20Finan%C3%A7as/) |
+| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) |
+| **Projeto Interdisciplinar Ciência de Dados** | [Ver pasta](Documentos/Entrega%201/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) |
 
 ## Descrição
 
