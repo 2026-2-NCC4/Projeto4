@@ -10,10 +10,10 @@
 
 ### Integrantes do Grupo
 
-[Yuri Oliveira Santana - ](https://www.linkedin.com/in/yuri-oliveira-santana/)<br>
-[Mauricio Suster - ](https://www.linkedin.com/in/mauricio-suster?utm_source=share_via&utm_content=profile&utm_medium=member_android)<br>
-[Kaio Inglez - ](https://www.linkedin.com/in/kaio-inglez-874812391?utm_source=share_via&utm_content=profile&utm_medium=member_ios)<br>
-[Bruno Nobrega - ](https://www.linkedin.com/in/bruno-nóbrega-537376362?utm_source=share_via&utm_content=profile&utm_medium=member_android)
+[Yuri Oliveira Santana  ](https://www.linkedin.com/in/yuri-oliveira-santana/)<br>
+[Mauricio Suster  ](https://www.linkedin.com/in/mauricio-suster?utm_source=share_via&utm_content=profile&utm_medium=member_android)<br>
+[Kaio Inglez  ](https://www.linkedin.com/in/kaio-inglez-874812391?utm_source=share_via&utm_content=profile&utm_medium=member_ios)<br>
+[Bruno Nobrega  ](https://www.linkedin.com/in/bruno-nóbrega-537376362?utm_source=share_via&utm_content=profile&utm_medium=member_android)
 
 ### Professores Orientadores: 
 
