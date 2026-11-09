@@ -98,22 +98,22 @@ Aqui estão as referências usadas no projeto.
 
 ASSAF NETO, Alexandre. **Estrutura e análise de balanços**: um enfoque econômico-financeiro. 12. ed. São Paulo: Atlas, 2020.
 
-GITHUB. **Planning and tracking with Projects**. GitHub Docs. Disponível em: <https://docs.github.com/en/issues/planning-and-tracking-with-projects>. Acesso em: 25 set. 2026.
+GITHUB. **Planning and tracking with Projects**. GitHub Docs. Disponível em: <https://docs.github.com/en/issues/planning-and-tracking-with-projects>. 
 
 GITMAN, Lawrence J.; ZUTTER, Chad J. **Princípios de administração financeira**. 14. ed. São Paulo: Pearson, 2017.
 
-GOOGLE. **Google Colaboratory**. Disponível em: <https://colab.research.google.com/>. Acesso em: 25 set. 2026.
+GOOGLE. **Google Colaboratory**. Disponível em: <https://colab.research.google.com/>.
 
-MATPLOTLIB DEVELOPMENT TEAM. **Matplotlib**: visualization with Python. Disponível em: <https://matplotlib.org/stable/>. Acesso em: 25 set. 2026.
+MATPLOTLIB DEVELOPMENT TEAM. **Matplotlib**: visualization with Python. Disponível em: <https://matplotlib.org/stable/>. 
 
 MCKINNEY, Wes. **Python para análise de dados**: tratamento de dados com pandas, NumPy & Jupyter. 3. ed. São Paulo: Novatec, 2023.
 
-NUMPY DEVELOPERS. **NumPy documentation**. Disponível em: <https://numpy.org/doc/stable/>. Acesso em: 25 set. 2026.
+NUMPY DEVELOPERS. **NumPy documentation**. Disponível em: <https://numpy.org/doc/stable/>. 
 
-PANDAS DEVELOPMENT TEAM. **pandas documentation**. Disponível em: <https://pandas.pydata.org/docs/>. Acesso em: 25 set. 2026.
+PANDAS DEVELOPMENT TEAM. **pandas documentation**. Disponível em: <https://pandas.pydata.org/docs/>.
 
-PYTHON SOFTWARE FOUNDATION. **Python 3.12 documentation**. Disponível em: <https://docs.python.org/3.12/>. Acesso em: 25 set. 2026.
+PYTHON SOFTWARE FOUNDATION. **Python 3.12 documentation**. Disponível em: <https://docs.python.org/3.12/>. 
 
-SCHWABER, Ken; SUTHERLAND, Jeff. **O Guia do Scrum**: o guia definitivo para o Scrum: as regras do jogo. [*S. l.*]: Scrum.org, 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf>. Acesso em: 25 set. 2026.
+SCHWABER, Ken; SUTHERLAND, Jeff. **O Guia do Scrum**: o guia definitivo para o Scrum: as regras do jogo. [*S. l.*]: Scrum.org, 2020. Disponível em: <https://scrumguides.org/docs/scrumguide/v2020/2020-Scrum-Guide-PortugueseBR-3.0.pdf>. 
 
 SOMMERVILLE, Ian. **Engenharia de software**. 10. ed. São Paulo: Pearson, 2018.
