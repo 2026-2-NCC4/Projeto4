@@ -30,7 +30,7 @@
 | :--- | :--- | :--- |
 | **Análise Inferencial de Dados** | [Ver pasta](Documentos/Entrega%201/Analise%20Inferencial%20de%20Dados/) | [Ver pasta](Documentos/Entrega%202/Analise%20Inferencial%20de%20Dados/) |
 | **Contabilidade e Finanças** | [Ver pasta](Documentos/Entrega%201/Contabilidade%20e%20Finan%C3%A7as/) | [Ver pasta](Documentos/Entrega%202/Contabilidade%20e%20Finan%C3%A7as/) |
-| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) | [Ver pasta](Documentos/Entrega%202/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/) |
+| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) | [Ver pasta (ES e ML)](Documentos/Entrega%202/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/) |
 | **Projeto Interdisciplinar Ciência de Dados** | [Ver pasta](Documentos/Entrega%201/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) | [Ver pasta](Documentos/Entrega%202/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) |
 
 ## Descrição
