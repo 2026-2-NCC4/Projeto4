@@ -30,14 +30,16 @@
 | :--- | :--- | :--- |
 | **Análise Inferencial de Dados** | [Ver pasta](Documentos/Entrega%201/Analise%20Inferencial%20de%20Dados/) | [Ver pasta](Documentos/Entrega%202/Analise%20Inferencial%20de%20Dados/) |
 | **Contabilidade e Finanças** | [Ver pasta](Documentos/Entrega%201/Contabilidade%20e%20Finan%C3%A7as/) | [Ver pasta](Documentos/Entrega%202/Contabilidade%20e%20Finan%C3%A7as/) |
-| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) | [Ver pasta (ES e ML)](Documentos/Entrega%202/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/) |
+| **Engenharia de Software e Arquitetura de Sistemas** | [Ver pasta (ES e ML)](Documentos/Entrega%201/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) | [Ver pasta (ES e ML)](Documentos/Entrega%202/Engenharia%20de%20Software%20e%20Arquitetura%20de%20Sistemas/ES%20e%20ML/) |
 | **Projeto Interdisciplinar Ciência de Dados** | [Ver pasta](Documentos/Entrega%201/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) | [Ver pasta](Documentos/Entrega%202/Projeto%20Interdisciplinar%20Ciencia%20de%20Dados/) |
+| **Código da Entrega 2** | – | [Painel financeiro](src/Entrega%202/painel_financeiro/) · [Dashboard CTI](src/Entrega%202/dashboard_cti/) |
+| **Declaração de uso de IA** | [Por disciplina](Documentos/README.md) | [Por módulo do sistema](src/README.md) |
 
 ## Descrição
 
 Esta é uma plataforma analítica desenvolvida para transformar dados financeiros brutos, como Balanço Patrimonial, DRE e Fluxo de Caixa em informações estratégicas e painéis interativos de apoio à decisão para a CTI Global.O projeto integra as disciplinas do 4º semestre de Ciência da Computação da FECAP, aplicando engenharia de requisitos, metodologias ágeis e conceitos de arquitetura de software. 
 <br><br><br>
-O objetivo principal da solução é automatizar a limpeza, uniformização e tratamento de dados utilizando Python, calcular indicadores financeiros essenciais (KPIs), aplicar modelos estatísticos e análises de regressão, e disponibilizar um dashb oard dinâmico na nuvem. Dessa forma, a plataforma permite que os gestores visualizem cenários de sensibilidade, acompanhem margens e otimizem o planejamento financeiro com total rastreabilidade e reprodutibilidade.
+O objetivo principal da solução é automatizar a limpeza, uniformização e tratamento de dados utilizando Python, calcular indicadores financeiros essenciais (KPIs), aplicar modelos estatísticos e análises de regressão, e disponibilizar um dashboard dinâmico na nuvem. Dessa forma, a plataforma permite que os gestores visualizem cenários de sensibilidade, acompanhem margens e otimizem o planejamento financeiro com total rastreabilidade e reprodutibilidade.
 <br><br>
 
 
@@ -46,7 +48,10 @@ O objetivo principal da solução é automatizar a limpeza, uniformização e tr
 ```text
 Projeto4/
 ├── Documentos/
-│   ├── Documento - Projeto de Extensão - COM Empresa - 2026_1.docx
+│   ├── README.md                                   (declaração de uso de IA por disciplina)
+│   ├── Documento - Projeto de Extensão - COM Empresa.docx
+│   ├── Ficha de Declaracao Uso IA - FECAP.docx     (modelo da ficha)
+│   ├── Novo_Banner_PI_FECAP.pptx
 │   ├── Entrega 1/
 │   │   ├── Analise Inferencial de Dados/
 │   │   │   ├── Analise_Descritiva_CTI.ipynb
@@ -62,13 +67,33 @@ Projeto4/
 │   │       ├── PI_CD_Entrega01_Preparacao_Dados.pdf
 │   │       └── Preparacao_Dados_CTI.ipynb
 │   └── Entrega 2/
+│       ├── Ficha_Declaracao_Uso_IA_Mauricio_Suster.docx
 │       ├── Analise Inferencial de Dados/
+│       │   ├── Analise_Regressao_CTI.ipynb
+│       │   └── Relatorio_Regressao_Entrega02_CTI.pdf
 │       ├── Contabilidade e Finanças/
+│       │   ├── Contabilidade_Entrega02_CTI.pdf
+│       │   ├── Planilha_Entrega02_Contabilidade_CTI.xlsx
+│       │   └── calculo_entrega2.py
 │       ├── Engenharia de Software e Arquitetura de Sistemas/
+│       │   └── ES e ML/
+│       │       ├── ES_Entrega02_Design_UML_CTI.pdf
+│       │       ├── uml_casos_de_uso.png
+│       │       └── uml_implantacao_componentes.png
 │       └── Projeto Interdisciplinar Ciencia de Dados/
+│           ├── PI_CD_Entrega02_Dashboard_CTI.pdf
+│           ├── PI_CD_Entrega02_Dashboard_CTI.md
+│           ├── app.py
+│           ├── dashboard_cti.zip
+│           └── imagens/
 ├── Imagens/
+│   └── LOGO CTI.jpeg
 ├── src/
-│   └── Entrega 2/
+│   ├── README.md                                   (declaração de uso de IA por módulo do sistema)
+│   ├── Entrega 2/
+│   │   ├── painel_financeiro/                      (painel de Contabilidade e Finanças)
+│   │   └── dashboard_cti/                          (dashboard de PI Ciência de Dados)
+│   └── Entrega Projeto/
 ├── .gitignore
 └── README.md
 ```
@@ -81,11 +106,11 @@ A pasta raiz contém dois arquivos:
 
 Há também 3 pastas que seguem da seguinte forma:
 
-<b>Documentos</b>: Documentação e entregas das disciplinas, separadas em `Entrega 1` e `Entrega 2`, com uma subpasta para cada disciplina. Na raiz dela fica o Documento de Projeto de Extensão.
+<b>Documentos</b>: Documentação e entregas das disciplinas, separadas em `Entrega 1` e `Entrega 2`, com uma subpasta para cada disciplina. Na raiz dela ficam o Documento de Projeto de Extensão, o banner, o modelo da ficha de uso de IA e o `README.md` com a declaração de uso de IA por disciplina.
 
 <b>Imagens</b>: Imagens do sistema e da documentação.
 
-<b>src</b>: Código-fonte da plataforma, organizado por entrega. Os códigos da Entrega 1 (notebooks e script de KPIs) estão junto com as entregas, em `Documentos/Entrega 1`.
+<b>src</b>: Código-fonte da plataforma, organizado por entrega. Os códigos da Entrega 1 (notebooks e script de KPIs) estão junto com as entregas, em `Documentos/Entrega 1`. Na Entrega 2 ficam o painel financeiro e o dashboard em Streamlit, cada um com o seu `README.md` explicando como rodar. O `src/README.md` traz a declaração de uso de IA por módulo do sistema.
 
 
 
