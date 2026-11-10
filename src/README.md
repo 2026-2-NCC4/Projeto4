@@ -33,9 +33,9 @@ Os códigos da Entrega 1 ficam junto com as entregas, na pasta `Documentos/Entre
 | **Ferramenta utilizada** | Claude (Anthropic) |
 | **Versão/modelo** | Claude Opus 5.5 |
 | **Disciplina / Trabalho** | PI Ciência de Dados – Entrega 1: notebook de coleta, limpeza e integração dos dados |
-| **Finalidade de uso** | Geração do código do notebook que lê o arquivo da CTI, limpa, padroniza, integra e grava a base `base_cti_processada.csv`, e correção dos comentários do notebook. |
-| ***Prompts* principais utilizados** | 1. Faça a preparação dos dados da Entrega 1 de PI Ciência de Dados em notebook do Colab, com relatório de 3 a 4 páginas.<br>2. Corrija os comentários dos notebooks que aparecem com problema no Colab. |
-| **Trechos ou entregas afetadas** | `Documentos/Entrega 1/Projeto Interdisciplinar Ciencia de Dados/Preparacao_Dados_CTI.ipynb` |
+| **Finalidade de uso** | Explicação de boas práticas de limpeza em pandas, revisão da função de limpeza, geração do código do notebook que lê o arquivo da CTI, limpa, padroniza, integra e grava a base `base_cti_processada.csv`, e correção dos comentários do notebook. |
+| ***Prompts* principais utilizados** | 1. Explique boas práticas em pandas para limpar e padronizar um CSV com separador ";", codificação latin1 e números no formato brasileiro.<br>2. Revise este trecho do nosso notebook de preparação e aponte erros ou riscos de perda de dados: [código]<br>3. Faça a preparação dos dados da Entrega 1 de PI Ciência de Dados em notebook do Colab, com relatório de 3 a 4 páginas.<br>4. Corrija os comentários dos notebooks que aparecem com problema no Colab. |
+| **Trechos ou entregas afetadas** | `Documentos/Entrega 1/Projeto Interdisciplinar Ciencia de Dados/Preparacao_Dados_CTI.ipynb` (inclui a função de limpeza da seção 5, ajustada após a revisão) |
 
 
 ### Módulo de cálculo dos KPIs
@@ -45,8 +45,8 @@ Os códigos da Entrega 1 ficam junto com as entregas, na pasta `Documentos/Entre
 | **Ferramenta utilizada** | Claude (Anthropic) |
 | **Versão/modelo** | Claude Opus 5.5 |
 | **Disciplina / Trabalho** | Contabilidade e Finanças – Entrega 1: script de cálculo dos KPIs |
-| **Finalidade de uso** | Geração do script em Python que calcula os KPIs do dicionário para todos os cenários e anos e gera os arquivos usados na planilha de validação. |
-| ***Prompts* principais utilizados** | 1. Elabore a Entrega 1 de Contabilidade e Finanças a partir do enunciado e dos dados da CTI: dicionário de KPIs, planilha de validação e script de cálculo em Python. |
+| **Finalidade de uso** | Conferência das fórmulas do dicionário de KPIs com a planilha e geração do script em Python que calcula os KPIs do dicionário para todos os cenários e anos e gera os arquivos usados na planilha de validação. |
+| ***Prompts* principais utilizados** | 1. Confira se estas fórmulas do nosso dicionário de KPIs estão corretas e batem com a planilha: [tabela]<br>2. Elabore a Entrega 1 de Contabilidade e Finanças a partir do enunciado e dos dados da CTI: dicionário de KPIs, planilha de validação e script de cálculo em Python. |
 | **Trechos ou entregas afetadas** | `Documentos/Entrega 1/Contabilidade e Finanças/calculo_kpis.py` |
 
 ### Módulo de análise descritiva
@@ -82,9 +82,9 @@ Os códigos da Entrega 1 ficam junto com as entregas, na pasta `Documentos/Entre
 | **Ferramenta utilizada** | Claude (Anthropic) |
 | **Versão/modelo** | Claude Opus 5.5 |
 | **Disciplina / Trabalho** | PI Ciência de Dados – Entrega 2: dashboard funcional e publicado |
-| **Finalidade de uso** | Geração do código do dashboard em Streamlit (leitura da base, KPIs, filtros, 7 páginas, simulador de sensibilidade e regressão), dos testes automáticos e do README com instruções de execução. |
-| ***Prompts* principais utilizados** | 1. Escreva a Entrega 2 de PI Ciência de Dados: documentação, instruções de execução e código do dashboard em Streamlit com os 5 KPIs.<br>2. Amplie o dashboard para a versão final do projeto. |
-| **Trechos ou entregas afetadas** | `src/Entrega 2/dashboard_cti` (`app.py`, `dados.py`, `formatos.py`, `paginas/`, `testar_dashboard.py` e `README.md`) |
+| **Finalidade de uso** | Correção de erro de execução e geração do código do dashboard em Streamlit (leitura da base, KPIs, filtros, 7 páginas, simulador de sensibilidade e regressão), dos testes automáticos e do README com instruções de execução. |
+| ***Prompts* principais utilizados** | 1. Este erro aparece ao rodar o dashboard. Explique a causa e como corrigir: [mensagem de erro]<br>2. Escreva a Entrega 2 de PI Ciência de Dados: documentação, instruções de execução e código do dashboard em Streamlit com os 5 KPIs.<br>3. Amplie o dashboard para a versão final do projeto. |
+| **Trechos ou entregas afetadas** | `src/Entrega 2/dashboard_cti` (`app.py`, `dados.py`, `formatos.py`, `paginas/`, `testar_dashboard.py` e `README.md`), incluindo a correção do erro de execução em `app.py` |
 
 ### Módulo de cálculos e modelos da Entrega 2
 
@@ -93,23 +93,23 @@ Os códigos da Entrega 1 ficam junto com as entregas, na pasta `Documentos/Entre
 | **Ferramenta utilizada** | Claude (Anthropic) |
 | **Versão/modelo** | Claude Opus 5.5 |
 | **Disciplina / Trabalho** | Contabilidade e Finanças e Análise Inferencial de Dados – Entrega 2: script de indicadores e notebook de regressão |
-| **Finalidade de uso** | Geração do script que calcula fluxo de caixa, índices da DFC, capital de giro e DVA para todos os cenários, e do notebook com os modelos de regressão, diagnósticos e validação. |
-| ***Prompts* principais utilizados** | 1. Elabore a Entrega 2 de Contabilidade e Finanças com índices da DFC, capital de giro, fluxo de caixa e DVA, junto com os KPIs.<br>2. Elabore a Entrega 2 de Análise Inferencial: regressão em notebook, com interpretação dos coeficientes, diagnósticos, limitações e relatório técnico. |
+| **Finalidade de uso** | Explicação dos conceitos de DFC, NCG, saldo de tesouraria, Fleuriet e dos diagnósticos da regressão, e geração do script que calcula fluxo de caixa, índices da DFC, capital de giro e DVA para todos os cenários, e do notebook com os modelos de regressão, diagnósticos e validação. |
+| ***Prompts* principais utilizados** | 1. Explique como montar a DFC pelos métodos direto e indireto e como calcular NCG, saldo de tesouraria e a classificação de Fleuriet.<br>2. Quais diagnósticos devemos apresentar numa regressão linear e como interpretar Breusch-Pagan e Jarque-Bera?<br>3. Elabore a Entrega 2 de Contabilidade e Finanças com índices da DFC, capital de giro, fluxo de caixa e DVA, junto com os KPIs.<br>4. Elabore a Entrega 2 de Análise Inferencial: regressão em notebook, com interpretação dos coeficientes, diagnósticos, limitações e relatório técnico. |
 | **Trechos ou entregas afetadas** | `Documentos/Entrega 2/Contabilidade e Finanças/calculo_entrega2.py` e `Documentos/Entrega 2/Analise Inferencial de Dados/Analise_Regressao_CTI.ipynb` |
 
-## Apoio ao longo do projeto
+## Revisões ao longo do projeto
 <br><br>
 
-### Módulo de apoio (conceitos, revisão e correção de erros)
+### Módulo de revisão de UML e de textos
 
 | **Aluno(s) Responsável(veis)** | Bruno Nobrega, Kaio Inglez, Mauricio Suster e Yuri Santana |
 | :--- | :--- |
 | **Ferramenta utilizada** | Claude (Anthropic) |
 | **Versão/modelo** | Claude Opus 5.5 |
-| **Disciplina / Trabalho** | Projeto Interdisciplinar – PI Ciência de Dados, Contabilidade e Finanças, Análise Inferencial de Dados e Engenharia de Software e Arquitetura de Sistemas |
-| **Finalidade de uso** | Explicação de conceitos (KPIs, DFC, capital de giro, regressão e UML), revisão de código e de fórmulas, ajuda para corrigir erros de execução e revisão de ortografia e clareza dos textos. Cada sugestão foi conferida pelo grupo antes de ser usada. |
-| ***Prompts* principais utilizados** | 1. Explique boas práticas em pandas para limpar e padronizar um CSV com separador ";", codificação latin1 e números no formato brasileiro.<br>2. Revise este trecho do nosso notebook de preparação e aponte erros ou riscos de perda de dados: [código]<br>3. Confira se estas fórmulas do nosso dicionário de KPIs estão corretas e batem com a planilha: [tabela]<br>4. Explique como montar a DFC pelos métodos direto e indireto e como calcular NCG, saldo de tesouraria e a classificação de Fleuriet.<br>5. Quais diagnósticos devemos apresentar numa regressão linear e como interpretar Breusch-Pagan e Jarque-Bera?<br>6. Revise a descrição dos nossos diagramas de casos de uso e de implantação e aponte erros de notação UML: [texto]<br>7. Este erro aparece ao rodar o dashboard. Explique a causa e como corrigir: [mensagem de erro]<br>8. Revise a ortografia e a clareza deste trecho do relatório, sem mudar o conteúdo: [texto] |
-| **Trechos ou entregas afetadas** | – Função de limpeza dos dados do notebook de preparação (seção 5), ajustada após a revisão;<br>– Correção do erro de execução do dashboard (arquivo `app.py`);<br>– Revisão de ortografia da introdução e da conclusão do relatório. |
+| **Disciplina / Trabalho** | Engenharia de Software e Arquitetura de Sistemas: diagramas de casos de uso e de implantação; relatórios do projeto |
+| **Finalidade de uso** | Revisão da notação UML na descrição dos diagramas e revisão de ortografia e clareza dos textos, sem mudar o conteúdo. Cada sugestão foi conferida pelo grupo antes de ser usada. |
+| ***Prompts* principais utilizados** | 1. Revise a descrição dos nossos diagramas de casos de uso e de implantação e aponte erros de notação UML: [texto]<br>2. Revise a ortografia e a clareza deste trecho do relatório, sem mudar o conteúdo: [texto] |
+| **Trechos ou entregas afetadas** | – Descrição dos diagramas de casos de uso e de implantação;<br>– Introdução e conclusão do relatório (revisão de ortografia). |
 
 ***Declaro que o uso acima descrito está em conformidade com o GUIA PARA O USO RESPONSÁVEL DE
 INTELIGÊNCIA ARTIFICIAL NA FECAP e que o conteúdo final é de minha plena responsabilidade
