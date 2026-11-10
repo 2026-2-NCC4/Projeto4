@@ -93,8 +93,7 @@ Projeto4/
 │   ├── Entrega 2/
 │   │   ├── painel_financeiro/                      (painel de Contabilidade e Finanças)
 │   │   └── dashboard_cti/                          (dashboard de PI Ciência de Dados)
-│   └── Entrega Projeto/
-├── .gitignore
+│  
 └── README.md
 ```
 
